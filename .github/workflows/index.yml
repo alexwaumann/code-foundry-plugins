@@ -1,0 +1,19 @@
+name: index
+on:
+  push:
+    branches: [main]
+    paths: ["plugins/**", "scripts/**"]
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate.py --write-index
+      - name: Commit index.json
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add index.json
+          git diff --cached --quiet || git commit -m "index: regenerate" && git push

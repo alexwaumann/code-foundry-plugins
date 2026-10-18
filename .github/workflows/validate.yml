@@ -1,0 +1,15 @@
+name: validate
+on:
+  pull_request:
+    paths: ["plugins/**"]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Validate changed entries
+        run: |
+          files=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'plugins/*.json' | xargs -r ls 2>/dev/null)
+          [ -n "$files" ] || { echo "no entries changed"; exit 0; }
+          python3 scripts/validate.py $files
