@@ -3,7 +3,7 @@
   "displayName": "Test Watcher",
   "description": "Runs the project's tests in a thread's worktree whenever files change, shows failures and output in the side panel, flags the thread while tests fail, and sends failures to Claude.",
   "repo": "alexwaumann/code-foundry-plugin-test-watcher",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "protocol": 1,
   "permissions": {
     "commands": [
@@ -22,12 +22,12 @@
   },
   "artifacts": {
     "darwin/amd64": {
-      "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.1/test-watcher-0.1.1-darwin-amd64.tar.gz",
-      "sha256": "c7fcead3a6da16cc86d7a992dc750a41b88bf05425bee0638707ec646b54785c"
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.2/test-watcher-0.1.2-darwin-amd64.tar.gz",
+      "sha256": "1b091ab1e09991da2c6fdfaf6c12d1a31a3f3e6d35bfd3c56d72fe0e4fc6c73a"
     },
     "darwin/arm64": {
-      "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.1/test-watcher-0.1.1-darwin-arm64.tar.gz",
-      "sha256": "91e6cf857ce58b249e5e54fc1b42420050e0f0b58ae91a26a1de699ec184a5f1"
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.2/test-watcher-0.1.2-darwin-arm64.tar.gz",
+      "sha256": "ff5c2086a58c88ba35ef08e9bbfd0dca4e5a4fd70ec0b1c0d8fff1e9a9486cb6"
     }
   }
 }
