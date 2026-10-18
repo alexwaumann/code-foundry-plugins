@@ -1,0 +1,36 @@
+{
+  "name": "showcase",
+  "displayName": "Showcase",
+  "description": "Every plugin component in one gallery: each view node, field, span and button style, plus flags, toasts, context, session environment, secrets, events, host commands and its own thread and terminal. For plugin authors and for testing the host.",
+  "repo": "alexwaumann/code-foundry-plugin-showcase",
+  "version": "0.1.0",
+  "protocol": 1,
+  "permissions": {
+    "commands": [
+      "pr.checks",
+      "thread.send",
+      "view.open.url"
+    ],
+    "events": [
+      "gh",
+      "project",
+      "threads"
+    ],
+    "threadStatus": true,
+    "sessionEnv": true,
+    "secrets": true,
+    "threads": true,
+    "terminals": true,
+    "api": false
+  },
+  "artifacts": {
+    "darwin/amd64": {
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.0/showcase-0.1.0-darwin-amd64.tar.gz",
+      "sha256": "6042f08e944191db5114d85ac2f76e11550a06a5797ffdc47adb1a7657eb1af7"
+    },
+    "darwin/arm64": {
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.0/showcase-0.1.0-darwin-arm64.tar.gz",
+      "sha256": "f26f0017d6e3d40478457cba7e188a48c190dd38d05585e96a56c5f1ce1c3707"
+    }
+  }
+}
