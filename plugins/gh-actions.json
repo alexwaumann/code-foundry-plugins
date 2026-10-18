@@ -3,7 +3,7 @@
   "displayName": "GitHub Actions",
   "description": "GitHub Actions runs, jobs and failed-step logs for the selected thread's pull request: rerun, cancel, send a failure to Claude, and a thread flag when a run fails.",
   "repo": "alexwaumann/code-foundry-plugin-gh-actions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "protocol": 1,
   "permissions": {
     "commands": [
@@ -24,12 +24,12 @@
   },
   "artifacts": {
     "darwin/amd64": {
-      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.1/gh-actions-0.1.1-darwin-amd64.tar.gz",
-      "sha256": "7201b7e9ae0c5b8f1446309e9957ede47c790a2502c059f28cf6c0939c203d37"
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.2/gh-actions-0.1.2-darwin-amd64.tar.gz",
+      "sha256": "8517096c432b273d45d6ec617fb5c3ff83cd91d4def7b07da3bc0a65d2eef027"
     },
     "darwin/arm64": {
-      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.1/gh-actions-0.1.1-darwin-arm64.tar.gz",
-      "sha256": "a83363e150a4997090401f5f8c16b8d4fbbfb4fe6e8f8e1f541589fab945845d"
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.2/gh-actions-0.1.2-darwin-arm64.tar.gz",
+      "sha256": "2cb305507d3d8c8b2073c9188412b591fec9eb037f8d5950784531a7fd06a085"
     }
   }
 }
