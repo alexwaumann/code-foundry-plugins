@@ -1,0 +1,35 @@
+{
+  "name": "gh-actions",
+  "displayName": "GitHub Actions",
+  "description": "GitHub Actions runs, jobs and failed-step logs for the selected thread's pull request: rerun, cancel, send a failure to Claude, and a thread flag when a run fails.",
+  "repo": "alexwaumann/code-foundry-plugin-gh-actions",
+  "version": "0.1.0",
+  "protocol": 1,
+  "permissions": {
+    "commands": [
+      "thread.send",
+      "view.open.url",
+      "pr.checks"
+    ],
+    "events": [
+      "gh",
+      "threads"
+    ],
+    "threadStatus": true,
+    "sessionEnv": false,
+    "secrets": false,
+    "threads": false,
+    "terminals": false,
+    "api": false
+  },
+  "artifacts": {
+    "darwin/arm64": {
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.0/gh-actions-0.1.0-darwin-arm64.tar.gz",
+      "sha256": "7ad70901f01b7efe6dce7b9d64a889109ced4700e12af1f4d3c5e69431ff18c0"
+    },
+    "darwin/amd64": {
+      "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.0/gh-actions-0.1.0-darwin-amd64.tar.gz",
+      "sha256": "fe970464aa4377b23903500f2001734eb18ef3fd01d887ef6150524cf2002792"
+    }
+  }
+}
