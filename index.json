@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T20:22:13Z",
+  "generatedAt": "2026-10-18T20:22:48Z",
   "plugins": [
     {
       "name": "gh-actions",
@@ -42,7 +42,7 @@
       "displayName": "Showcase",
       "description": "Every plugin component in one gallery: each view node, field, span and button style, plus flags, toasts, context, session environment, secrets, events, host commands and its own thread and terminal. For plugin authors and for testing the host.",
       "repo": "alexwaumann/code-foundry-plugin-showcase",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "protocol": 1,
       "permissions": {
         "commands": [
@@ -64,12 +64,12 @@
       },
       "artifacts": {
         "darwin/amd64": {
-          "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.1/showcase-0.1.1-darwin-amd64.tar.gz",
-          "sha256": "ae8dbf19591d8b31ab607cedce979e3d0681d6be5879839df98b250fdba11d5e"
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.2/showcase-0.1.2-darwin-amd64.tar.gz",
+          "sha256": "2123cacbd2e1aedbe2ee9f7cc5d4f1d51f1076a89214aa13cf921f4be9b3fbc5"
         },
         "darwin/arm64": {
-          "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.1/showcase-0.1.1-darwin-arm64.tar.gz",
-          "sha256": "7a3f43d97e810e30079d1b0f1dabf79ff9c33e01adfae37cac39707868f53811"
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-showcase/releases/download/v0.1.2/showcase-0.1.2-darwin-arm64.tar.gz",
+          "sha256": "7795663372faf0377df6058129433924d9f341aa5673d5c891aa7050f86d1f9e"
         }
       }
     },
