@@ -33,7 +33,7 @@ is the same layout in a private repository; `gh` auth covers it.
   "protocol": 1,
   "permissions": {
     "commands": ["thread.send", "view.open.url", "pr.checks"],
-    "events": ["gh", "thread"],
+    "events": ["gh", "threads"],
     "threadStatus": true,
     "sessionEnv": false,
     "secrets": false,
