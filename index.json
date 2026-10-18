@@ -1,5 +1,74 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T09:46:42Z",
-  "plugins": []
+  "generatedAt": "2026-10-18T14:50:24Z",
+  "plugins": [
+    {
+      "name": "gh-actions",
+      "displayName": "GitHub Actions",
+      "description": "GitHub Actions runs, jobs and failed-step logs for the selected thread's pull request: rerun, cancel, send a failure to Claude, and a thread flag when a run fails.",
+      "repo": "alexwaumann/code-foundry-plugin-gh-actions",
+      "version": "0.1.0",
+      "protocol": 1,
+      "permissions": {
+        "commands": [
+          "thread.send",
+          "view.open.url",
+          "pr.checks"
+        ],
+        "events": [
+          "gh",
+          "threads"
+        ],
+        "threadStatus": true,
+        "sessionEnv": false,
+        "secrets": false,
+        "threads": false,
+        "terminals": false,
+        "api": false
+      },
+      "artifacts": {
+        "darwin/arm64": {
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.0/gh-actions-0.1.0-darwin-arm64.tar.gz",
+          "sha256": "7ad70901f01b7efe6dce7b9d64a889109ced4700e12af1f4d3c5e69431ff18c0"
+        },
+        "darwin/amd64": {
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-gh-actions/releases/download/v0.1.0/gh-actions-0.1.0-darwin-amd64.tar.gz",
+          "sha256": "fe970464aa4377b23903500f2001734eb18ef3fd01d887ef6150524cf2002792"
+        }
+      }
+    },
+    {
+      "name": "test-watcher",
+      "displayName": "Test Watcher",
+      "description": "Runs the project's tests in a thread's worktree whenever files change, shows failures and output in the side panel, flags the thread while tests fail, and sends failures to Claude.",
+      "repo": "alexwaumann/code-foundry-plugin-test-watcher",
+      "version": "0.1.0",
+      "protocol": 1,
+      "permissions": {
+        "commands": [
+          "thread.send"
+        ],
+        "events": [
+          "project",
+          "threads"
+        ],
+        "threadStatus": true,
+        "sessionEnv": false,
+        "secrets": false,
+        "threads": false,
+        "terminals": false,
+        "api": false
+      },
+      "artifacts": {
+        "darwin/arm64": {
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.0/test-watcher-0.1.0-darwin-arm64.tar.gz",
+          "sha256": "447deb231b78f72912bce2af6377745d108a5ea77656ed5521d3552bbfd648c9"
+        },
+        "darwin/amd64": {
+          "url": "https://github.com/alexwaumann/code-foundry-plugin-test-watcher/releases/download/v0.1.0/test-watcher-0.1.0-darwin-amd64.tar.gz",
+          "sha256": "bc57b715018ca5e9c16921aa9800b62b01d335f1fc1314ecb0374cf29fa9d325"
+        }
+      }
+    }
+  ]
 }
