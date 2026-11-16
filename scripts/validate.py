@@ -10,7 +10,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+(-[0-9A-Za-z.-]+)?$")
 PERM_KEYS = {"commands": list, "events": list, "threadStatus": bool, "sessionEnv": bool,
-             "secrets": bool, "threads": bool, "terminals": bool, "api": bool}
+             "secrets": bool, "threads": bool, "terminals": bool, "api": bool,
+             "notifications": bool}
 
 def norm_perms(p):
     out = {}

@@ -39,7 +39,8 @@ is the same layout in a private repository; `gh` auth covers it.
     "secrets": false,
     "threads": false,
     "terminals": false,
-    "api": false
+    "api": false,
+    "notifications": false
   },
   "artifacts": {
     "darwin/arm64": {
